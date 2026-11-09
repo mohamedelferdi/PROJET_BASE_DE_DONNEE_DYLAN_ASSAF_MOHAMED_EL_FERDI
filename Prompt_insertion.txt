@@ -1,0 +1,18 @@
+Rôle : Expert en base de données relationnelle et génération de jeux de tests SQL.
+
+Instructions : 
+Génère un script d'insertion SQL (INSERT INTO) pour MySQL. 
+Le script doit remplir une base de données de club de boxe amateur.
+
+Contexte : 
+La base de données gère des adhérents, des parrainages (récursifs), des catégories de poids, des cotisations, des paiements, des salles et des séances d'entraînement (relation n-aire avec les salles).
+
+Contraintes techniques :
+1. Respecte l'intégrité référentielle : insère les données dans les tables parentes (CATEGORIE, SALLE, COTISATIONS, PAIEMENT) avant les tables enfants (ADHERENT, SCEANCE, PARTICIPER).
+2. Génère 10 adhérents réalistes avec des noms, prénoms et dates de naissance cohérentes.
+3. Inclus des relations de parrainage : certains adhérents doivent avoir l'ID d'un autre adhérent dans la colonne NUM_LICENCE_FFB_PARRAIN.
+4. Utilise le format DATE 'YYYY-MM-DD' et le format DECIMAL pour les montants.
+5. Assure-toi que les clés étrangères correspondent exactement aux données insérées précédemment.
+
+Objectif : 
+Obtenir un jeu de données varié permettant de tester des requêtes de jointures complexes et des fonctions d'agrégation.

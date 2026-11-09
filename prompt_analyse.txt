@@ -1,0 +1,25 @@
+FRAMEWORK RICARDO - ANALYSE DES BESOINS 
+
+RÔLE (R) : 
+Agis en tant qu'expert en conception de bases de données et analyste métier spécialisé dans le domaine sportif.
+
+INSTRUCTIONS (I) : 
+Établis une liste précise des règles de gestion des données pour mon organisation. Produis ensuite un dictionnaire de données brutes regroupé dans un tableau.
+
+CONTEXTE (C) : 
+Le projet concerne la gestion d'un club de boxe amateur (type association loi 1901 ou club municipal). L'organisation doit gérer les adhérents (boxeurs), les entraîneurs, les séances d'entraînement, la présence et les cotisations/paiements.
+
+CONTRAINTES ADDITIONNELLES (A) : 
+- Les règles doivent être rédigées de manière simple, comme si elles étaient dictées par un responsable de club.
+- Le dictionnaire de données doit contenir entre 25 et 35 données.
+- Le modèle final doit permettre une normalisation en 3FN et inclure des concepts avancés (association récursive pour le parrainage et association n-aire pour le planning).
+
+RÉFÉRENCES (R) : 
+Inspire-toi du fonctionnement de la Fédération Française de Boxe (FFBoxe) et des plannings types des clubs de boxe locaux pour les inscriptions et les catégories de poids.
+
+OBJECTIFS (O) : 
+Fournir toutes les informations nécessaires (règles et dictionnaire avec types et tailles) pour qu'un étudiant en ingénierie puisse réaliser le MCD, le MLD et le MPD de la base de données.
+
+RENDEMENT DÉSIRÉ (D) : 
+- Une liste à puces pour les règles de gestion.
+- Un tableau Markdown pour le dictionnaire de données avec les colonnes : "Signification de la donnée", "Type", "Taille (caractères/chiffres)".

@@ -60,6 +60,7 @@ Les fichiers suivants sont disponibles dans le répertoire:
 ## VI. Présentation Vidéo
 Conformément à l'étape finale:
 * La vidéo de présentation (12 min max) explique le MCD, le MPD et le scénario d'utilisation.
+* **Lien de la vidéo :** [Insérer ici votre lien Panopto ou Moodle]
 
 
 ## Modèle Conceptuel de Données (MCD)
