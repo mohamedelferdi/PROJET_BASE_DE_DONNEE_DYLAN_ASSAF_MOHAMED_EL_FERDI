@@ -1,4 +1,3 @@
--- Création des tables de référence
 CREATE TABLE CATEGORIE (
     ID_CATEGORIE VARCHAR(50) PRIMARY KEY,
     POIDS VARCHAR(50)
